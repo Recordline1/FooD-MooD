@@ -7,7 +7,7 @@
 <b>Demo</b>
  https://recordline1.github.io/FooD-MooD/
  
-<i>Technologies</i>
+<i>Technologies used</i>
 - **HTML5**
 - **CSS3** (Flexbox, Grid, animations)
 - **JavaScript** (vanilla, for mobile menu)
