@@ -2,7 +2,7 @@
 
 <i>One-page adaptive website for a modern pizzeria.</i>
 
-<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/3fc992c4-a702-42d6-81f6-f934c7c052c8" />
+<img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/07b969a4-532f-4d4c-a475-a8f62bb4d210" />
 
 <b>Demo</b>
 
