@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>FOOD MOOD</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1756035242090"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1756035242090">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a href="#" class="header__logo">FOODMOOD</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">HOME</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">OUR MENU</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">ABOUT</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">CONTACT</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<button data-fls-dynamic=".menu__list, 767.98" class="header__button button" data-fls-button="">DOWNLOAD APP</button>
+				</div>
+			</header>
+			<main class="page">
+				<section class="hero">
+					<div class="hero__container">
+						<div class="hero__price">Only $15.00</div>
+						<h1 data-fls-watcher="" class="hero__title">AUTHENTIC ITALIAN PIZZA</h1>
+						<div class="hero__body">
+							<div class="hero__discount">
+								<div class="hero__discount_body">
+									<span>20%</span>
+									<span>DISCOUNT</span>
+								</div>
+							</div>
+							<div class="hero__text">On your first
+					order, if you order
+					online through
+					our App!</div>
+						</div>
+						<button class="hero__buttot button">ORDER ONLINE</button>
+					</div>
+					<picture>
+						<source media="(max-width: 600px)" srcset="./assets/img/hero-600.webp" type="image/webp">
+						<source media="(max-width: 1200px)" srcset="./assets/img/hero-1200.webp" type="image/webp">
+						<img class="hero__image" alt="Image" src="./assets/img/hero.webp">
+					</picture>
+				</section>
+				<section class="categories">
+					<div class="categories__container">
+						<div data-fls-watcher="" class="title title_center categories__header">
+							<div class="title__label">TOP FOODS</div>
+							<h2 class="title__title">Our Categories</h2>
+						</div>
+						<ul class="categories__colums">
+							<li class="categories__colum colum-categories">
+								<div class="colum-categories__image">
+									<picture>
+										<img alt="Image" src="./assets/img/categories/01.webp">
+									</picture>
+								</div>
+								<h3 class="colum-categories__title">Pizza</h3>
+								<p class="colum-categories__text">20 Restaurants Foods</p>
+							</li>
+							<li class="categories__colum colum-categories">
+								<div class="colum-categories__image">
+									<picture>
+										<img alt="Image" src="./assets/img/categories/02.webp">
+									</picture>
+								</div>
+								<h3 class="colum-categories__title">Pasta</h3>
+								<p class="colum-categories__text">15 Restaurants Foods</p>
+							</li>
+							<li class="categories__colum colum-categories">
+								<div class="colum-categories__image">
+									<picture>
+										<img alt="Image" src="./assets/img/categories/03.webp">
+									</picture>
+								</div>
+								<h3 class="colum-categories__title">Shakes</h3>
+								<p class="colum-categories__text">20 Restaurants Foods</p>
+							</li>
+							<li class="categories__colum colum-categories">
+								<div class="colum-categories__image">
+									<picture>
+										<img alt="Image" src="./assets/img/categories/04.webp">
+									</picture>
+								</div>
+								<h3 class="colum-categories__title">Burger</h3>
+								<p class="colum-categories__text">25 Restaurants Foods</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<div class="advantages">
+					<div class="advantages__container">
+						<div data-fls-watcher="" class="advantages__item item-advantages">
+							<div class="item-advantages__logo">
+								<img src="./assets/img/advantages/01.svg" alt="Image">
+							</div>
+							<div class="item-advantages__title">
+								<span>Free Shipping on</span>
+								First Order
+							</div>
+							<div class="item-advantages__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+					eiusmod</div>
+						</div>
+						<div data-fls-watcher="" class="advantages__item item-advantages">
+							<div class="item-advantages__logo">
+								<img src="./assets/img/advantages/02.svg" alt="Image">
+							</div>
+							<div class="item-advantages__title">
+								<span>Variety of</span>
+								Dishes
+							</div>
+							<div class="item-advantages__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+					eiusmod</div>
+						</div>
+						<div data-fls-watcher="" class="advantages__item item-advantages">
+							<div class="item-advantages__logo">
+								<img src="./assets/img/advantages/03.svg" alt="Image">
+							</div>
+							<div class="item-advantages__title">
+								<span>Thirty Minutes</span>
+								Delivery
+							</div>
+							<div class="item-advantages__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+					eiusmod</div>
+						</div>
+					</div>
+				</div>
+				<div class="near">
+					<div class="near__container">
+						<div class="near__colums">
+							<div class="near__colum item-column">
+								<a class="item-column__link" href="#">
+									<picture>
+										<img class="item-column__image" alt="Image" src="./assets/img/near/01.webp">
+									</picture>
+								</a>
+								<img src="./assets/img/near/point.svg" alt="Image">
+								<div class="item-column__text">
+									<a href="#">762 Fulton St San Francisco, California(CA), 94102</a>
+								</div>
+							</div>
+							<div class="near__colum item-column">
+								<a class="item-column__link" href="#">
+									<picture>
+										<img class="item-column__image" alt="Image" src="./assets/img/near/02.webp">
+									</picture>
+								</a>
+								<img src="./assets/img/near/point.svg" alt="Image">
+								<div class="item-column__text">
+									<a href="#">66 Ceres St San Francisco, California(CA), 94124</a>
+								</div>
+							</div>
+							<div class="near__colum item-column">
+								<a class="item-column__link" href="#">
+									<picture>
+										<img class="item-column__image" alt="Image" src="./assets/img/near/03.webp">
+									</picture>
+								</a>
+								<img src="./assets/img/near/point.svg" alt="Image">
+								<div class="item-column__text">
+									<a href="#">766 Sutter St San Francisco, California(CA), 94109</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="today">
+					<div class="today__container">
+						<div class="today__body">
+							<div class="today__content content-today">
+								<div data-fls-watcher="" class="content-today__title title title_decor title_decor-left">
+									<div class="title__label">PIZZA DELIVERY</div>
+									<h2 class="title__title">Get Started Today!</h2>
+								</div>
+								<div class="content-today__body">
+									<div class="content-today__sub-title">
+										Everything you need to build an amazing food restaurant
+							responsive website.
+									</div>
+									<div class="content-today__text">
+										<p>
+											Hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
+								facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+								zzril delenit augue duis.
+										</p>
+									</div>
+								</div>
+								<div class="content-today__advantages-colums">
+									<div class="content-today__advantages-column advantages-column">
+										<picture>
+											<img class="advantages-column__image" alt="Image" src="./assets/img/today/promote.webp">
+										</picture>
+										<h3 class="advantages-column__title">Food Order</h3>
+										<div class="advantages-column__text">
+											<p>
+												Food is the necessity of life. It provides nutrition, sustenance growth to human
+									body.
+											</p>
+										</div>
+									</div>
+									<div class="content-today__advantages-column advantages-column">
+										<picture>
+											<img class="advantages-column__image" alt="Image" src="./assets/img/today/food.webp">
+										</picture>
+										<h3 class="advantages-column__title">Promote Restaurant</h3>
+										<div class="advantages-column__text">
+											<p>Food can be classified into cereals, pulses, nuts and oilseeds, vegetable</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="today__image">
+								<a href="#">
+									<picture>
+										<img alt="Image" src="./assets/img/today/main.webp">
+									</picture>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="team">
+					<div class="team__container">
+						<div data-fls-watcher="" class="team__title title title_center title_decor">
+							<div class="title__label">TEAM MEMBERS</div>
+							<h2 class="title__title">Meet Our Best Team</h2>
+						</div>
+						<div class="team__teams">
+							<div class="team__colum column-team">
+								<picture>
+									<img class="column-team__image" alt="Image" src="./assets/img/team/01.webp">
+								</picture>
+								<h3 class="column-team__name">Alizeh Anderson</h3>
+								<div class="column-team__speciality">Senior Chef</div>
+							</div>
+							<div class="team__colum column-team">
+								<picture>
+									<img class="column-team__image" alt="Image" src="./assets/img/team/02.webp">
+								</picture>
+								<h3 class="column-team__name">Angelina John</h3>
+								<div class="column-team__speciality">Master Chef</div>
+							</div>
+							<div class="team__colum column-team">
+								<picture>
+									<img class="column-team__image" alt="Image" src="./assets/img/team/03.webp">
+								</picture>
+								<h3 class="column-team__name">Andre Smith</h3>
+								<div class="column-team__speciality">Professor</div>
+							</div>
+							<div class="team__colum column-team">
+								<picture>
+									<img class="column-team__image" alt="Image" src="./assets/img/team/04.webp">
+								</picture>
+								<h3 class="column-team__name">Christina Chi</h3>
+								<div class="column-team__speciality">Psychologist</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="discount">
+					<div class="discount__container">
+						<div class="discount__body">
+							<h2 class="discount__title">Get 20% Discount</h2>
+							<div class="discount__text">Get flat 20% off on your first order though The Foodmood App!</div>
+							<div class="discount__store">
+								<picture>
+									<img class="discount__store_img" alt="Image" src="./assets/img/discount/google.webp">
+								</picture>
+								<picture>
+									<img class="discount__store_img" alt="Image" src="./assets/img/discount/app.webp">
+								</picture>
+							</div>
+						</div>
+						<div class="discount__image">
+							<picture>
+								<img alt="Image" src="./assets/img/discount/discount.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+				<div class="partners">
+					<div class="partners__container">
+						<div class="partners__logo">
+							<a href="#">
+								<picture>
+									<img alt="Image" src="./assets/img/partners/01.webp">
+								</picture>
+							</a>
+						</div>
+						<div class="partners__logo">
+							<a href="#">
+								<picture>
+									<img alt="Image" src="./assets/img/partners/02.webp">
+								</picture>
+							</a>
+						</div>
+						<div class="partners__logo">
+							<a href="#">
+								<picture>
+									<img alt="Image" src="./assets/img/partners/03.webp">
+								</picture>
+							</a>
+						</div>
+						<div class="partners__logo">
+							<a href="#">
+								<picture>
+									<img alt="Image" src="./assets/img/partners/04.webp">
+								</picture>
+							</a>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<ul class="footer__colum footer__colum_first">
+							<li class="footer__title footer__title_color">FOODMOOD</li>
+							<li class="footer__text footer__text_first">
+								Vivamus convallis fermen sollicitudin et, vitae elit in vel ultrices sed in urna ipsum ullamcorper auctor.
+							</li>
+							<li class="footer__social">
+								<a href="#" class="footer__social_link --icon-twitter"></a>
+								<a href="#" class="footer__social_link --icon-facebook"></a>
+								<a href="#" class="footer__social_link --icon-instagram"></a>
+							</li>
+						</ul>
+						<div data-fls-spollers="767.98" class="footer__colum">
+							<details class="spollers__item">
+								<summary class="footer__title spollers__title">ABOUT US</summary>
+								<ul class="footer__column-body">
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">Our Story</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">Our Locations</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">Current Deals</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">Contact Us</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+						<div data-fls-spollers="767.98" class="footer__colum">
+							<details class="spollers__item">
+								<summary class="footer__title spollers__title">OUR MENU</summary>
+								<ul class="footer__column-body">
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">Pizza</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">Pasta</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">Dessert</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">Take & Bake</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+						<div data-fls-spollers="767.98" class="footer__colum">
+							<details class="spollers__item">
+								<summary class="footer__title spollers__title">OUR LOCATION</summary>
+								<ul class="footer__column-body">
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">The FOODMOOD Madrid</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">The FOODMOOD Rome</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">The FOODMOOD Paris</a>
+									</li>
+									<li class="footer__text">
+										<a class="footer__text_link" href="#">The FOODMOOD Miami</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+					</div>
+					<div class="footer__copy">
+						<span class="footer__copy_year">Copyright © 2022 The Pizzeria</span>
+						<span class="footer__copy_logo">
+							Powered by The
+							<span>FOODMOOD</span>
+						</span>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
