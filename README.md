@@ -15,6 +15,7 @@
 </div>
 
  <b>Peculiarities</b>
+ 
  - Fully responsive design (Mobile First)
 - Interactive hamburger menu
 - Optimized image loading (WebP)
