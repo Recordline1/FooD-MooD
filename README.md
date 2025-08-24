@@ -1,6 +1,7 @@
 # FooD-MooD
 One-page adaptive website for a modern pizzeria.
-<img width="1054" height="571" alt="image" src="https://github.com/user-attachments/assets/4c1b311c-1dc6-438e-8151-21b7e343728e" />
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/4c1b311c-1dc6-438e-8151-21b7e343728e" />
 
 Demo
  
