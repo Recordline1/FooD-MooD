@@ -13,4 +13,9 @@
  <img width="30" height="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
  <img width="30" height="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
 </div>
- 
+
+ <b>Peculiarities</b>
+ - Fully responsive design (Mobile First)
+- Interactive hamburger menu
+- Optimized image loading (WebP)
+- Valid and semantic layout
