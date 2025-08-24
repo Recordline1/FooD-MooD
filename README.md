@@ -9,6 +9,6 @@
  
 <i>Technologies used</i>
 
-- <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />          
-- <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />(Flexbox, Grid, animations)
-- <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />(vanilla, for mobile menu)
+- <img width="50" height="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />          
+- <img width="50" height="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />(Flexbox, Grid, animations)
+- <img width="50" height="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />(vanilla, for mobile menu)
